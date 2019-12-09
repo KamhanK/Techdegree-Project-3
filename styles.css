@@ -1,0 +1,13 @@
+/* base styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0;
+}
