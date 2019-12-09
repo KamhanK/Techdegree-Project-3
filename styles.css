@@ -8,6 +8,25 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+header {
+    background-color: #2D3945;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 h1 {
     margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
 }
