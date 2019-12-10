@@ -24,10 +24,10 @@
             
             <form>
                 <fieldset>
-                    <legend><h3>Contact Information</h3></legend>
+                    <legend><h3 class="fm-headings">Contact Information</h3></legend>
                     
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="full_name">
+                    <input type="text" id="full_name" name="full_name">
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email_address">
@@ -101,25 +101,27 @@
                 </fieldset>
                 
                 <fieldset>
-                    <legend><h3>Newsletter</h3></legend>
-                    <p>Select the newsletters you would like to recieve</p>
+                    <legend><h3 class="fm-headings">Newsletter</h3></legend>
+                    <p class="fm-text">Select the newsletters you would like to recieve</p>
 
                     <input type="checkbox" id="html" name="html_news">
                     <label for="html">HTML News</label>
 
-                    <input type="checkbox" id="css" name="html_news">
+                    <input type="checkbox" id="css" name="css_news">
                     <label for="css">CSS News</label>
 
-                    <input type="checkbox" id="javascript" name="html_news">
+                    <input type="checkbox" id="javascript" name="javascript_news">
                     <label for="javascript">JavaScript News</label>
 
-                    <p>Newsletter format</p>
+                    <p class="fm-text">Newsletter format</p>
 
                     <input type="radio" id="html_radio" name="nw_radio">
                     <label for="html_radio">HTML</label>
 
                     <input type="radio" id="plain_text" name="nw_radio">
                     <label for="plain_text">Plain text</label>
+
+                    <p class="fm-text">Other topics you'd like to hear about</p>
 
                     <textarea id="comments" name="user_comments"></textarea>
 
