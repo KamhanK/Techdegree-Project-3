@@ -42,18 +42,42 @@ input, select {
     padding: 12px 20px;
     margin: 8px 0;
     display: block;
-  }
+}
 
-form {
+input[type="text"] {
+    background-color: #EFF0F1;
+}
+
+input[type="email"] {
+    background-color: #EFF0F1;
+}
+
+input[type="tel"] {
+    background-color: #EFF0F1;
+}
+
+input[type="number"] {
+    background-color: #EFF0F1;
+}
+
+input {
+	box-shadow: none;
+}
+
+textarea {
+    background-color: #EFF0F1;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset {
     text-align: left;
 }
 
 button.btn-submit {
     
-}
-
-fieldset {
-    border: none;
 }
 
 /* text styles */
