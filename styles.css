@@ -81,7 +81,8 @@ fieldset {
 }
 
 .btn-submit {
-    
+    width: 100%;
+    height: 50px;
 }
 
 /* text styles */
