@@ -60,6 +60,10 @@ input[type="number"] {
     background-color: #EFF0F1;
 }
 
+input[placeholder="Required"] {
+    text-align: right;
+}
+
 input {
 	box-shadow: none;
 }
@@ -76,7 +80,7 @@ fieldset {
     text-align: left;
 }
 
-button.btn-submit {
+.btn-submit {
     
 }
 
