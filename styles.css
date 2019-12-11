@@ -12,11 +12,18 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
 header {
     background-color: #2D3945;
     color: #FFFFFF;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .main-heading {
@@ -28,10 +35,40 @@ h1 {
     margin: 0;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1rem;
+/* form styles */
 
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+
+form {
+    text-align: left;
+    margin: 0 auto;
 }
+
+fieldset {
+    border: none;
+}
+
+/* text styles */
+
+.bn-heading, .fm-headings {
+    color: #2D3945;
+}
+
+.bn-text {
+    color: #AAAFB4;
+}
+
+.fm-text, label {
+    color: #55687A;
+}
+
+.cp-text {
+    color: #9DA3A8;
+}
+
+
