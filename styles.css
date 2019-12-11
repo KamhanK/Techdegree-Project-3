@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    max-width: 768px;
     margin: 0 auto;
     text-align: center;
     padding: 1rem;
@@ -37,16 +37,19 @@ h1 {
 
 /* form styles */
 
-input {
+input, select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
+    display: block;
   }
 
 form {
     text-align: left;
-    margin: 0 auto;
+}
+
+button.btn-submit {
+    
 }
 
 fieldset {
@@ -71,4 +74,9 @@ fieldset {
     color: #9DA3A8;
 }
 
+/* media queries */
 
+    @media only screen and (min-width: 768px) {
+
+        
+    }
