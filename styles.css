@@ -57,6 +57,10 @@ input, select {
     flex-direction: column;
 }
 
+.item {
+    order: 0;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
