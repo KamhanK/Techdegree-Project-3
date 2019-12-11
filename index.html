@@ -26,6 +26,8 @@
                 <fieldset>
                     <legend class="fm-headings">Contact Information</legend>
                     
+                    <div class="flex-container-1">
+
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="full_name" placeholder="Required">
 
@@ -98,11 +100,15 @@
 
                     <label for="zip">Zip Code</label>
                     <input type="number" id="zip" name="zip_code">
+
+                    </div>
                 </fieldset>
                 
                 <fieldset>
                     <legend class="fm-headings">Newsletter</legend>
                     <p class="fm-text">Select the newsletters you would like to recieve</p>
+
+                    <div class="flex-container-2">
 
                     <input type="checkbox" id="html" name="html_news">
                     <label for="html">HTML News</label>
@@ -112,9 +118,12 @@
 
                     <input type="checkbox" id="javascript" name="javascript_news">
                     <label for="javascript">JavaScript News</label>
+                    
+                    </div> 
 
                     <p class="fm-text">Newsletter format</p>
 
+                    <div class="flex-container-3">
                     <input type="radio" id="html_radio" name="nw_radio">
                     <label for="html_radio">HTML</label>
 
@@ -124,6 +133,8 @@
                     <label for="comments">Other topics you'd like to hear about</label>
 
                     <textarea type="textarea" id="comments" name="user_comments"></textarea>
+                    
+                    </div>
                 </fieldset>
 
                     <button class="btn-submit" type="submit">Sign Up</button>
