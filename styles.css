@@ -58,12 +58,16 @@ textarea {
     border: none;
 }
 
-input[placeholder="Required"] {
+input[placeholder="Required"]::placeholder {
     text-align: right;
-}
+  }
 
 input {
 	box-shadow: none;
+}
+
+input#zip.item-2-zip {
+    width: 200px;  
 }
 
 input[type="checkbox"], input[type="radio"] {
@@ -156,8 +160,7 @@ fieldset {
         }
 
         .item-1-zip {
-            flex-grow: 1;
-            flex-basis: 220px;
+            flex-basis: 168px;
         }
 
         input#zip.item-2-zip {
