@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
+    background-color: ;
 }
 
 .container {
@@ -125,6 +126,12 @@ fieldset {
 
 .cp-text {
     color: #9DA3A8;
+}
+
+/* theme styles */
+
+hr {
+    
 }
 
 /* media queries */
