@@ -10,14 +10,6 @@
     align-items: center;
 }
 
-.item-1-chk {
-    
-}
-
-.item-2-chk {
-    
-}
-
 /* media queries */
 
     @media only screen and (min-width: 768px) {
@@ -43,13 +35,6 @@
             flex-direction: row;
             align-items: center;
         }
-
-        /* .item-1-zip {
-            flex-basis: 168px;
-        }
-
-        .item-2-zip {
-            flex-basis: 200px;  
-        } */
+        
             
     }

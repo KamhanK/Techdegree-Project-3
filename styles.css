@@ -55,6 +55,7 @@ input[type="number"],
 textarea {
     background-color: #EFF0F1;
     border: none;
+    border-radius: 5px;
 }
 
 input[placeholder="Required"]::placeholder {
@@ -88,6 +89,7 @@ input {
 
 textarea {
     resize: none;
+    height: 100px;
 }
 
 fieldset {
@@ -103,12 +105,21 @@ fieldset {
     border: none;
     background-color: #4EBBB5;
     color: #FFFFFF;
+    border-radius: 5px;
 }
 
 /* text styles */
 
 .bn-heading, .fm-headings {
     color: #2D3945;
+}
+
+.bn-heading {
+    font-size: 1.25rem;
+}
+
+.fm-ct-heading, .fm-nw-heading {
+    font-size: 1.25rem;
 }
 
 .fm-headings {
@@ -130,9 +141,32 @@ fieldset {
 
 /* theme styles */
 
-hr {
-    
+.bn-theme {
+    border: 2px solid;
+    border-color: #2D3945;
+    margin-top: 45px;
+    margin-bottom: 0px; 
 }
+
+.bn-theme-thin {
+    border: 1px solid;
+    border-color: #2D3945;
+    margin-top: 3px;
+    margin-bottom: 35px;
+}
+
+.nw-theme {
+    border: 1px solid;
+    border-color: #2D3945;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* footer styles */
+
+/* .main-footer {
+    padding-bottom: 600px;
+} */
 
 /* media queries */
 
@@ -141,5 +175,26 @@ hr {
         .container {
             max-width: 768px;
         }
+
+        .bn-heading {
+            font-size: 1.50rem;
+        }
+
+        .bn-theme {
+            margin-top: 50px;
+            margin-bottom: 0px; 
+        }
+        
+        .bn-theme-thin {
+            margin-top: 3px;
+            margin-bottom: 50px;
+        }
+        
+        .nw-theme {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        
         
     }
