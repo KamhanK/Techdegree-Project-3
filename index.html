@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flexbox.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap" rel="stylesheet">
     <title>An Online Registration Form</title>
 </head>
@@ -22,11 +23,12 @@
                 <p class="bn-text">Get the latest news on how your code is doing in your inbox</p>
             </div>
             
+            <hr class="bn-theme">
+            <hr class="bn-theme-thin">
+
             <form>
                 <fieldset>
                     <legend class="fm-headings">Contact Information</legend>
-                    
-                    <!-- <div class="flex-container-1"> -->
 
                     <div class="flex-container">
                         <label class="item-1" for="name">Full Name</label>
@@ -115,41 +117,45 @@
                         <input class="item-2-zip" type="number" id="zip" name="zip_code">
                     </div>
 
-                    <!-- </div> -->
                 </fieldset>
                 
                 <fieldset>
                     <legend class="fm-headings">Newsletter</legend>
                     <p class="fm-text">Select the newsletters you would like to recieve</p>
 
-                    <!-- <div class="flex-container-2"> -->
-                    
-                    <input type="checkbox" id="html" name="html_news">
-                    <label for="html">HTML News</label>
+                    <div class="flex-container-chk">
+                        <input class="item-1-chk" type="checkbox" id="html" name="html_news">
+                        <label class="item-2-chk" for="html">HTML News</label>
+                    </div>
 
-                    <input type="checkbox" id="css" name="css_news">
-                    <label for="css">CSS News</label>
+                    <div class="flex-container-chk">
+                        <input class="item-1-chk" type="checkbox" id="css" name="css_news">
+                        <label class="item-2-chk" for="css">CSS News</label>
+                    </div>
 
-                    <input type="checkbox" id="javascript" name="javascript_news">
-                    <label for="javascript">JavaScript News</label>
+                    <div class="flex-container-chk">
+                        <input class="item-1-chk" type="checkbox" id="javascript" name="javascript_news">
+                        <label class="item-2-chk" for="javascript">JavaScript News</label>
+                    </div>
 
-                    <!-- </div>  -->
+                    <hr class="nw-theme">
 
                     <p class="fm-text">Newsletter format</p>
 
-                    <!-- <div class="flex-container-3"> -->
+                    <div class="flex-container-rd">    
+                        <input class="item-1-rd" type="radio" id="html_radio" name="nw_radio">
+                        <label class="item-2-rd" for="html_radio">HTML</label>
+                    </div>
 
-                    <input type="radio" id="html_radio" name="nw_radio">
-                    <label for="html_radio">HTML</label>
+                    <div class="flex-container-rd">
+                        <input class="item-1-rd" type="radio" id="plain_text" name="nw_radio">
+                        <label class="item-2-rd" for="plain_text">Plain text</label>
+                    </div>
 
-                    <input type="radio" id="plain_text" name="nw_radio">
-                    <label for="plain_text">Plain text</label>
-
-                    <label for="comments">Other topics you'd like to hear about</label>
-
-                    <textarea type="textarea" id="comments" name="user_comments"></textarea>
-                    
-                    <!-- </div> -->
+                    <div class="flex-container-tx-area">
+                        <label class="tx-area-lb" for="comments">Other topics you'd like to hear about</label>
+                        <textarea type="textarea" id="comments" name="user_comments"></textarea>
+                    </div>
                 </fieldset>
 
                     <button class="btn-submit" type="submit">Sign Up</button>

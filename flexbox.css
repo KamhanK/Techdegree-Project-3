@@ -1,0 +1,55 @@
+/* flexbox styles */
+
+.flex-container, .flex-container-zip, .flex-container-tx-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-chk {
+    display: flex;
+    align-items: center;
+}
+
+.item-1-chk {
+    
+}
+
+.item-2-chk {
+    
+}
+
+/* media queries */
+
+    @media only screen and (min-width: 768px) {
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+        }
+
+        .item-1 {
+            flex-grow: 1;
+            flex-basis: 100px;
+        }
+
+        .item-2 {
+            flex-grow: 1;
+            flex-basis: 500px;
+        }
+
+        .flex-container-zip {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        /* .item-1-zip {
+            flex-basis: 168px;
+        }
+
+        .item-2-zip {
+            flex-basis: 200px;  
+        } */
+            
+    }

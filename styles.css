@@ -38,10 +38,8 @@ h1 {
 /* form styles */
 
 input, select, textarea {
-    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: block;
 }
 
 select#state.item-2 {
@@ -60,27 +58,35 @@ textarea {
 
 input[placeholder="Required"]::placeholder {
     text-align: right;
-  }
+}
 
 input {
 	box-shadow: none;
 }
 
-input#zip.item-2-zip {
+.item-1-zip {
+    width: 168px;  
+}
+
+.item-2-zip {
     width: 200px;  
 }
 
-input[type="checkbox"], input[type="radio"] {
-    vertical-align: middle;
-    position: relative;
+.item-2-chk {
+    margin-left: 1rem;
 }
 
-label[for="html_radio"] {
-    display: inline;
+.item-2-rd {
+    margin-left: 1rem;
+}
+
+.tx-area-lb {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 textarea {
-    ;
+    resize: none;
 }
 
 fieldset {
@@ -88,7 +94,6 @@ fieldset {
     text-align: left;
     margin: 0 0 32px;
     padding: 0;
-
 }
 
 .btn-submit {
@@ -129,43 +134,5 @@ fieldset {
         .container {
             max-width: 768px;
         }
-
-        /* .flex-container-1 {
-            display: flex;
-            flex-direction: row;
-        } */
-
-        .flex-container {
-            display: flex;
-            flex-wrap: nowrap;
-            align-items: center;
-            
-        }
-
-        .item-1 {
-            flex-grow: 1;
-            flex-basis: 100px;
-        }
-
-        .item-2 {
-            flex-grow: 1;
-            flex-basis: 500px;
-        }
-
-        .flex-container-zip {
-            display: flex;
-            align-items: center;
-            
-            
-        }
-
-        .item-1-zip {
-            flex-basis: 168px;
-        }
-
-        input#zip.item-2-zip {
-            flex-basis: 200px;  
-        }
-
         
     }
