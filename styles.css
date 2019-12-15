@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: ;
     padding-bottom: 275px;
 }
 
@@ -22,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #2D3945;
+    background-color: #253847;
     color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -65,8 +64,25 @@ input[placeholder="Required"]::placeholder {
     color: #A2A8AD;
 }
 
-input {
-	box-shadow: none;
+input[placeholder="Phone Number"]::placeholder, 
+input[placeholder="Street Address"]::placeholder, 
+input[placeholder="City"]::placeholder,
+input[placeholder="Zip Code"]::placeholder,
+textarea[placeholder="What are you interested in?"]::placeholder {
+    color: #A2A8AD;
+}
+
+input:focus, 
+#state:focus, 
+textarea:focus {
+    outline-color: #46698B;
+    outline-width: 4px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .item-1-zip {
@@ -115,7 +131,7 @@ fieldset {
 /* text styles */
 
 .bn-heading, .fm-headings {
-    color: #2D3945;
+    color: #253847;
 }
 
 .bn-heading {
@@ -148,21 +164,21 @@ fieldset {
 
 .bn-theme {
     border: 2px solid;
-    border-color: #2D3945;
+    border-color: #253847;
     margin-top: 45px;
     margin-bottom: 0px; 
 }
 
 .bn-theme-thin {
     border: 1px solid;
-    border-color: #2D3945;
+    border-color: #253847;
     margin-top: 3px;
     margin-bottom: 35px;
 }
 
 .nw-theme {
     border: 1px solid;
-    border-color: #2D3945;
+    border-color: #253847;
     margin-top: 35px;
     margin-bottom: 35px;
 }
