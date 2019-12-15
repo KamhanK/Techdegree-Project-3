@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: #F7F7F7;
+    background-color: #DBDBDB;
     padding-bottom: 275px;
 }
 
@@ -55,7 +55,7 @@ input[type="tel"],
 input[type="number"],
 #state,
 textarea {
-    background-color: #E0E0E0;
+    background-color: #F4F4F4;
     border: none;
     border-radius: 5px;
     color: #A2A8AD;
@@ -152,11 +152,7 @@ fieldset {
     font-weight: bold;
 }
 
-.bn-text {
-    color: #AAAFB4;
-}
-
-.fm-text, label {
+.fm-text, .bn-text, label {
     color: #55687A;
 }
 
