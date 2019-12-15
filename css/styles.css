@@ -77,7 +77,7 @@ textarea[placeholder="What are you interested in?"]::placeholder {
 input:focus, 
 #state:focus, 
 textarea:focus {
-    outline-color: #46698B;
+    outline-color: #253847;
     outline-width: 4px;
     transition-property: outline;
     transition-duration: 350ms;
