@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
+    background-color: #F7F7F7;
     padding-bottom: 275px;
 }
 
@@ -54,7 +55,7 @@ input[type="tel"],
 input[type="number"],
 #state,
 textarea {
-    background-color: #EFF0F1;
+    background-color: #E0E0E0;
     border: none;
     border-radius: 5px;
     color: #A2A8AD;
@@ -78,6 +79,7 @@ input:focus,
 textarea:focus {
     outline-color: #46698B;
     outline-width: 4px;
+    transition-property: outline;
     transition-duration: 350ms;
 }
 
