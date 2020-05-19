@@ -1,4 +1,4 @@
-/* base styles */
+/* Base Styles */
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: #DBDBDB;
+    background-color: #FFFFFF;
     padding-bottom: 275px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #253847;
+    background-color: #2D3945;
     color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -37,7 +37,7 @@ h1 {
     margin: 0;
 }
 
-/* form styles */
+/* Form Styles */
 
 input, select, textarea {
     padding: 12px 20px;
@@ -55,7 +55,7 @@ input[type="tel"],
 input[type="number"],
 #state,
 textarea {
-    background-color: #F4F4F4;
+    background-color: #EFF0F1;
     border: none;
     border-radius: 5px;
     color: #A2A8AD;
@@ -77,7 +77,7 @@ textarea[placeholder="What are you interested in?"]::placeholder {
 input:focus, 
 #state:focus, 
 textarea:focus {
-    outline-color: #253847;
+    outline-color: #46698B;
     outline-width: 4px;
     transition-property: outline;
     transition-duration: 350ms;
@@ -133,10 +133,10 @@ fieldset {
     font-size: 1.15rem;
 }
 
-/* text styles */
+/* Text Styles */
 
 .bn-heading, .fm-headings {
-    color: #253847;
+    color: #2D3945;
 }
 
 .bn-heading {
@@ -161,30 +161,30 @@ fieldset {
     font-style: italic;
 }
 
-/* theme styles */
+/* Theme Styles */
 
 .bn-theme {
     border: 2px solid;
-    border-color: #253847;
+    border-color: #2D3945;
     margin-top: 45px;
     margin-bottom: 0px; 
 }
 
 .bn-theme-thin {
     border: 1px solid;
-    border-color: #253847;
+    border-color: #2D3945;
     margin-top: 3px;
     margin-bottom: 35px;
 }
 
 .nw-theme {
     border: 1px solid;
-    border-color: #253847;
+    border-color: #2D3945;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-/* media queries */
+/* Media Queries */
 
     @media only screen and (min-width: 768px) {
 
