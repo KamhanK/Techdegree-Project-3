@@ -1,4 +1,4 @@
-/* Base Styles */
+/* Global Styles */
 
 * {
     box-sizing: border-box;
@@ -13,6 +13,8 @@ body {
     background-color: #FFFFFF;
     padding-bottom: 275px;
 }
+
+/* Base Styles */
 
 .container {
     max-width: 100%;
