@@ -13,7 +13,7 @@
 
 For this project I created all of the HTML & CSS from scratch. I used a Google font for all of the text of the website. For this design I used a mobile-first approach where I designed the mobile view of this project as the basis for the base CSS. I then added media query breakpoints at 768px and 1024px and styled those breakpoints respectively. I designed the form by using the form element and the basic form attributes. I used Flexbox to arrange all the form inputs. I added a dropdown for the state form field. I added input checkboxes and their respective labels. I used placeholder text for the form fields. I used form validation for the required form fields.
 
-This project was designed according to the mockups provided.
+This project was designed according to the provided mockups.
 
 **Exceeds Expectations Requirements:**
 
