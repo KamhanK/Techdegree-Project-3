@@ -7,6 +7,7 @@
 - CSS
 - Mobile-First Responsive Design
 - Form Implementation & Validation Techniques
+- Flexbox
 
 **Project Description:**
 
