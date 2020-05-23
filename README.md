@@ -5,6 +5,7 @@
 - HTML
 - CSS
 - Form Implementation & Validation Techniques
+- Google Fonts
 - Flexbox
 - Mobile-First Responsive Web Design
 
