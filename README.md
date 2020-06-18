@@ -1,6 +1,6 @@
 # Techdegree Project 3 - Online Registration Form
 
-**Skills Used:**
+**Skills & Technologies Used:**
 
 - HTML
 - CSS
